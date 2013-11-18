@@ -34,7 +34,7 @@ if __name__ == '__main__':
         print "anaysis.py c:\\test.pcap c:\\result.txt"
         exit()
     Pcap = sys.argv[1]
-    #PATH = "c:\\Users\\Linquid\\Desktop\\"
+    
     try:
         fpcap = open(Pcap,'rb')
         ftxt = open(sys.argv[2],'w')
